@@ -50,11 +50,17 @@ I wanted this sketch to be a bit playful while still having an underlying theme 
 Indeed, as time goes by, things do change. The interaction between two completely different things is particularly appealing. Especially, when a change in one thing often triggers a corresponding change in another, which is often quite interesting. In my project, I included a song, so please turn on the speakers and immerse yourself fully while browsing. As the melody of the song flows, the changes in the song's spectrum on the interface are cleverly represented by the number of ice cream balls stacked in ice cream cones. These ice cream balls, of various flavors and arranged in an orderly manner, visually represent the intensity of different frequencies in the song's spectrum through their numbers. In the process of completing this project, I received assistance from ChatGPT. I asked ChatGPT for advice on how to load music in p5.js and how to process the distributed spectrum obtained from the music. I used the spectrum data at each moment to draw ice cream cones of corresponding heights on the canvas, thus demonstrating that time can be recorded through the changes of tangible objects.
 
 ### 🟦 Stage 4
-- Name/Alias:
-- Github account:
+- Name/Alias: ChristinaLLLL
+- Github account:https://github.com/ChristinaLLLL
 - Published webpage for stage 4:
 
-*... comments to be added here*
+*I started with another student's work that pushed a button and started music with ice cream images dancing to the beat of the music.  I removed the ice cream images. I changed the names of the buttons to ‘Let's play a game’.  I removed the ability to pause the music.  
+
+I attempted to make ASCII art by using pixels of an image in text through a video.  I chose this initially because I didn’t want to make a game directly.  The interactive text-based game was meant to be a player looking at the video and moving around creating different outcomes.  It used an array of letters/numbers/symbols, putting them in order of brightest to darkest or opposite.  However, I failed in my attempt and needed to make a new plan. 
+
+Next, I watched a video on making a sliding puzzle with the help and instruction of The Coding Train on YouTube.  I had issues with the sequence of code.  My preview did not show much action because there were always errors.  This is the tricky part of adding to the code of another person.  The order dramatically affects what will work and what will not.  I needed to be careful with what I removed from the original coding.  But I wanted to keep the entry push button and the music.
+
+I made an image on Raw Pixels and added it to the file to become my source file.  The plan was to create a board array where tiles could move around.  I needed to cut images into pieces and shuffle them randomly to deconstruct and then the interactive game is the player putting the image back together.  I used an index to keep track of the tiles, by splitting up with a number of rows and colums. When the shuffle was set for a low number, it did not mix the puzzle up enough.  I used the mouse pressed for the player to interact with the game.   It was difficult to understand the coding for keeping an empty spot for a piece to be able to move around the board.  The isNeighbor function allows movement beside the empty spot.  This seemed like a simple enough plan; however, there were many errors along the way.   After a very long journey, I was happy with my results.  *
 
 ### 🟪 Stage 5
 - Name/Alias:
